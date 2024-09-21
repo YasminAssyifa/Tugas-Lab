@@ -12,7 +12,7 @@ begin
     read(lebar);
 
     Luas:= panjang*lebar;
-    Keliling:= 2*panjang*lebar;
+    Keliling:= 2*panjang+2*lebar;
 
     writeln('luas lapangan: ',luas);
     writeln('Keliling lapangan: ',keliling);
